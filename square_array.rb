@@ -13,5 +13,5 @@ def square_array(numbers)
 end
 
 def square_array(numbers)
-numbers.each.collect {|number| number ** 2}
+numbers.collect {|number| number ** 2}
 end
